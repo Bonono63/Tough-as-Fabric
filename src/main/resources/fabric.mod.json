@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "taf",
+  "version": "${version}",
+
+  "name": "Tough as Fabric",
+  "description": "Minecraft just got so much harder.",
+  "authors": [
+    "MrBonono63[Twitch]"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/TaF/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.MrBonono63.TaF.TaF"
+    ]
+  },
+  "mixins": [
+    "TaF.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

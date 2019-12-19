@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.MrBonono63.TaF.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "InGameHUDMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
